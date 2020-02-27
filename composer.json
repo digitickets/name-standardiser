@@ -1,0 +1,24 @@
+{
+    "name": "digitickets/name-standardiser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DigiTickets",
+            "email": "support@digitickets.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DigiTickets\\NameStandardiser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DigiTicketsTests\\NameStandardiser\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    }
+}
