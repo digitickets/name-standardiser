@@ -13,7 +13,7 @@ class HonoursAwareNameStandardiser extends NameStandardiser
      *
      * @var string[]
      */
-    private $honours = ['mbe', 'obe', 'cbe', 'kbe', 'dbe'];
+    private $honours = ['mbe', 'obe', 'cbe', 'kbe', 'dbe', 'ma', 'prof', 'mfa', 'mba', 'llm', 'lpc', 'gdl', 'mim', 'msw', 'pgce', 'pgde'];
 
     protected function shouldProcess(string $namePart): bool
     {

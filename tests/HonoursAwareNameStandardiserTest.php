@@ -31,6 +31,11 @@ class HonoursAwareNameStandardiserTest extends NameStandardiserTest
             'honours3' => ['Cox mBe OBe dbe', 'Cox mBe OBe dbe'],
             'honours4' => ['Dots C.B.E.', 'Dots C.B.E.'],
             'honours5' => ['Dots C.B.E', 'Dots C.B.E'],
+            'honours6' => ['smith MSc', 'Smith MSc'],
+            'honours7' => ['Smith MBA', 'Smith MBA'],
+            'honours8' => ['Smith Ma', 'Smith Ma'],
+            'honours9' => ['smith ma', 'Smith ma'],
+            'honours10' => ['Smith MA', 'Smith MA'],
         ];
     }
 }
